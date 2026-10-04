@@ -14,7 +14,9 @@
 // cloud sandboxes); run this from a normal internet connection.
 import { chromium, capture, newPage, addArea, localizeImages, pinFixed, slug } from "./lib/capture.mjs";
 
-const SITE = "https://news.kiwistand.com";
+// SITE=http://localhost:4000 captures a locally running kiwistand node
+// (e.g. started from a backup), which has no Cloudflare in front of it.
+const SITE = process.env.SITE ?? "https://news.kiwistand.com";
 const PROFILE = "0xee324c588ceF1BF1c1360883E4318834af66366d"; // timdaub.eth
 const PAGES = [
   ["Home · Hot", "/"],

@@ -80,6 +80,14 @@ Notes:
   datacenter IPs (CI and cloud machines), so run `capture:website` from a
   normal connection. Pages that are blocked keep their previous capture.
   `ONLY="New,Best"` re-captures just those pages.
+- **Capturing from a local node instead:** `SITE=http://localhost:4000`
+  captures a kiwistand node running on your machine, which has no Cloudflare
+  in front of it. Started from a
+  [backup](https://github.com/attestate/kiwinews-backups) (copy a backup's
+  `bootstrap` folder to `kiwistand/anon`, then `npm run start` with
+  `HTTP_PORT=4000`), it shows that backup's stories. Run it under
+  `faketime -f "@<backup date> 18:00:00"` so Hot and New aren't empty. Search
+  needs the search service's API key and can't be captured this way.
 - **Chromium:** if Playwright's own browser isn't installed, set
   `PLAYWRIGHT_CHROMIUM` to a Chromium binary. Behind an HTTPS proxy, also
   set `NODE_USE_ENV_PROXY=1`.
