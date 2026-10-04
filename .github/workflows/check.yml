@@ -1,0 +1,70 @@
+# Checks every change to the design file and shows what changed as images,
+# so a pull request (e.g. a file uploaded on github.com) can be reviewed
+# without pen.dev.
+name: Check design
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: One design file
+        run: |
+          extra=$(git ls-files '*.pen' | grep -vx 'kiwi-news.pen' || true)
+          if [ -n "$extra" ]; then
+            echo "::error::Found $extra. Upload the design as kiwi-news.pen (same name, replacing the old one)."
+            exit 1
+          fi
+
+      - name: File is intact
+        run: npm run check
+
+      - name: Changed screens
+        id: changed
+        if: github.event_name == 'pull_request'
+        run: |
+          git show "${{ github.event.pull_request.base.sha }}:kiwi-news.pen" > /tmp/base.pen 2>/dev/null || echo '{}' > /tmp/base.pen
+          echo "ids=$(node tools/changed-screens.mjs /tmp/base.pen kiwi-news.pen)" >> "$GITHUB_OUTPUT"
+
+      - name: Render previews
+        if: github.event_name == 'pull_request' && steps.changed.outputs.ids != ''
+        run: |
+          npx playwright install --with-deps chromium
+          node tools/render.mjs kiwi-news.pen out/preview ${{ steps.changed.outputs.ids }}
+
+      - name: Upload previews
+        id: upload
+        if: github.event_name == 'pull_request' && steps.changed.outputs.ids != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: previews
+          path: out/preview/*.png
+
+      - name: Comment
+        if: github.event_name == 'pull_request' && steps.changed.outputs.ids != '' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/github-script@v7
+        env:
+          IDS: ${{ steps.changed.outputs.ids }}
+          URL: ${{ steps.upload.outputs.artifact-url }}
+        with:
+          script: |
+            const ids = process.env.IDS.split(" ");
+            const body = `**Design check passed.** ${ids.length} screen(s) changed: ${ids.map((id) => "`" + id + "`").join(", ")}.\n\n[Download preview images](${process.env.URL}) (rendered without pen.dev, so small differences are expected; open the file in pen.dev for the real look).`;
+            await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body });
