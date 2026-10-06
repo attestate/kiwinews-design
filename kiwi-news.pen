@@ -120731,6 +120731,1080 @@
       ],
       "x": 0,
       "y": 36554
+    },
+    {
+      "type": "text",
+      "id": "mock-kiwistand-219-title-0",
+      "x": 0,
+      "y": 39753,
+      "content": "Mockup · kiwistand-219 · Desktop",
+      "fill": "#000000",
+      "fontSize": 48,
+      "fontWeight": "700",
+      "fontFamily": "Inter"
+    },
+    {
+      "type": "frame",
+      "id": "mock-kiwistand-219-desktop-before-html",
+      "name": "Mockup kiwistand-219 · Desktop · /before.html",
+      "layout": "none",
+      "clip": true,
+      "width": 1280,
+      "height": 900,
+      "fill": "#F6F6EF",
+      "children": [
+        {
+          "type": "frame",
+          "id": "mock-kiwistand-219-desktop-before-html-g",
+          "name": "scaled-hnmain",
+          "layout": "none",
+          "x": 372.1,
+          "y": 0,
+          "width": 520.9,
+          "height": 515.3,
+          "cornerRadius": 2,
+          "stroke": "#A66E4E26",
+          "strokeAlignment": "inner",
+          "strokeWidth": {
+            "top": 0,
+            "right": 1,
+            "bottom": 0,
+            "left": 1
+          },
+          "children": [
+            {
+              "type": "frame",
+              "id": "mock-kiwistand-219-desktop-before-html-f",
+              "name": "table",
+              "layout": "none",
+              "x": 1,
+              "y": 0,
+              "width": 518.9,
+              "height": 515.3,
+              "fill": "#FFFFFA",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mock-kiwistand-219-desktop-before-html-8",
+                  "name": "tweet-preview-container",
+                  "layout": "none",
+                  "x": 3,
+                  "y": 3,
+                  "width": 512.9,
+                  "height": 475.3,
+                  "clip": true,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mock-kiwistand-219-desktop-before-html-7",
+                      "name": "tweet-embed-container",
+                      "layout": "none",
+                      "x": 0,
+                      "y": 0,
+                      "width": 512.9,
+                      "height": 475.3,
+                      "fill": "#FFFFFF",
+                      "stroke": "#E6E6DF",
+                      "strokeAlignment": "inner",
+                      "strokeWidth": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 1,
+                        "left": 0
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mock-kiwistand-219-desktop-before-html-1",
+                          "name": "div",
+                          "layout": "none",
+                          "x": 20,
+                          "y": 20,
+                          "width": 20,
+                          "height": 20,
+                          "cornerRadius": 10,
+                          "clip": true,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "mock-kiwistand-219-desktop-before-html-0",
+                              "name": "@kennyschac",
+                              "layout": "none",
+                              "x": 0,
+                              "y": 0,
+                              "width": 20,
+                              "height": 20,
+                              "fill": {
+                                "type": "image",
+                                "url": "assets/mockups/kiwistand-219-avatar.jpg",
+                                "mode": "cover"
+                              },
+                              "clip": true,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "mock-kiwistand-219-desktop-before-html-2",
+                          "x": 48,
+                          "y": 22,
+                          "content": "@kennyschac",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "fill": "#0F1419"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mock-kiwistand-219-desktop-before-html-3",
+                          "x": 20,
+                          "y": 58.2,
+                          "content": "Blah blah dogma. Art = art. Period. Humanity needs protection from humanity as much, if not more, than from machines. Besides, if organized religion doesn’t like something, my first inclination is to like it more.",
+                          "fontFamily": "Inter",
+                          "fontSize": 15.2,
+                          "fontWeight": "400",
+                          "fill": "#0F1419",
+                          "lineHeight": 1.6,
+                          "textGrowth": "fixed-width",
+                          "width": 457.3
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mock-kiwistand-219-desktop-before-html-5",
+                          "name": "div",
+                          "layout": "none",
+                          "x": 20,
+                          "y": 166.4,
+                          "width": 474.9,
+                          "height": 268,
+                          "fill": "#00000014",
+                          "cornerRadius": 2,
+                          "stroke": "#0000001A",
+                          "strokeAlignment": "inner",
+                          "strokeWidth": 1,
+                          "clip": true,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "mock-kiwistand-219-desktop-before-html-4",
+                              "name": "Tweet image",
+                              "layout": "none",
+                              "x": 1,
+                              "y": 1,
+                              "width": 472.9,
+                              "height": 266,
+                              "fill": {
+                                "type": "image",
+                                "url": "assets/mockups/kiwistand-219-tweet.jpg",
+                                "mode": "cover"
+                              },
+                              "clip": true,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "mock-kiwistand-219-desktop-before-html-6",
+                          "x": 463.5,
+                          "y": 442.3,
+                          "content": "x.com",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "400",
+                          "fill": "#0F1419"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "mock-kiwistand-219-desktop-before-html-9",
+                  "x": 23,
+                  "y": 485.3,
+                  "content": "by",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "fill": "#828282",
+                  "lineHeight": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "mock-kiwistand-219-desktop-before-html-a",
+                  "x": 39,
+                  "y": 485.3,
+                  "content": "mishaderidder.eth",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "fill": "#000000",
+                  "lineHeight": 1.5
+                },
+                {
+                  "type": "frame",
+                  "id": "mock-kiwistand-219-desktop-before-html-c",
+                  "name": "span",
+                  "layout": "none",
+                  "x": 148.4,
+                  "y": 482.3,
+                  "width": 45.8,
+                  "height": 22,
+                  "fill": "#00000014",
+                  "cornerRadius": 11,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-desktop-before-html-b",
+                      "x": 6,
+                      "y": 6,
+                      "content": "1483 🥝",
+                      "fontFamily": "Inter",
+                      "fontSize": 9,
+                      "fontWeight": "600",
+                      "fill": "#000000",
+                      "lineHeight": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "mock-kiwistand-219-desktop-before-html-d",
+                  "x": 194.2,
+                  "y": 485.3,
+                  "content": "•",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "fill": "#828282",
+                  "lineHeight": 1.5,
+                  "textGrowth": "fixed-width",
+                  "width": 11.9
+                },
+                {
+                  "type": "text",
+                  "id": "mock-kiwistand-219-desktop-before-html-e",
+                  "x": 205,
+                  "y": 485.3,
+                  "content": "2d",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "fill": "#828282",
+                  "lineHeight": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "x": 0,
+      "y": 39853
+    },
+    {
+      "type": "frame",
+      "id": "mock-kiwistand-219-desktop-after-html",
+      "name": "Mockup kiwistand-219 · Desktop · /after.html",
+      "layout": "none",
+      "clip": true,
+      "width": 1280,
+      "height": 900,
+      "fill": "#F6F6EF",
+      "children": [
+        {
+          "type": "frame",
+          "id": "mock-kiwistand-219-desktop-after-html-g",
+          "name": "scaled-hnmain",
+          "layout": "none",
+          "x": 372.1,
+          "y": 0,
+          "width": 520.9,
+          "height": 724.1,
+          "cornerRadius": 2,
+          "stroke": "#A66E4E26",
+          "strokeAlignment": "inner",
+          "strokeWidth": {
+            "top": 0,
+            "right": 1,
+            "bottom": 0,
+            "left": 1
+          },
+          "children": [
+            {
+              "type": "frame",
+              "id": "mock-kiwistand-219-desktop-after-html-f",
+              "name": "table",
+              "layout": "none",
+              "x": 1,
+              "y": 0,
+              "width": 518.9,
+              "height": 724.1,
+              "fill": "#FFFFFA",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mock-kiwistand-219-desktop-after-html-8",
+                  "name": "tweet-preview-container",
+                  "layout": "none",
+                  "x": 3,
+                  "y": 3,
+                  "width": 512.9,
+                  "height": 684.1,
+                  "clip": true,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mock-kiwistand-219-desktop-after-html-7",
+                      "name": "tweet-embed-container",
+                      "layout": "none",
+                      "x": 0,
+                      "y": 0,
+                      "width": 512.9,
+                      "height": 684.1,
+                      "fill": "#FFFFFF",
+                      "stroke": "#E6E6DF",
+                      "strokeAlignment": "inner",
+                      "strokeWidth": {
+                        "top": 0,
+                        "right": 0,
+                        "bottom": 1,
+                        "left": 0
+                      },
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mock-kiwistand-219-desktop-after-html-1",
+                          "name": "div",
+                          "layout": "none",
+                          "x": 20,
+                          "y": 20,
+                          "width": 20,
+                          "height": 20,
+                          "cornerRadius": 10,
+                          "clip": true,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "mock-kiwistand-219-desktop-after-html-0",
+                              "name": "@kennyschac",
+                              "layout": "none",
+                              "x": 0,
+                              "y": 0,
+                              "width": 20,
+                              "height": 20,
+                              "fill": {
+                                "type": "image",
+                                "url": "assets/mockups/kiwistand-219-avatar.jpg",
+                                "mode": "cover"
+                              },
+                              "clip": true,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "mock-kiwistand-219-desktop-after-html-2",
+                          "x": 48,
+                          "y": 22,
+                          "content": "@kennyschac",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "fill": "#0F1419"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mock-kiwistand-219-desktop-after-html-3",
+                          "x": 20,
+                          "y": 58.2,
+                          "content": "Blah blah dogma. Art = art. Period. Humanity needs protection from humanity as much, if not more, than from machines. Besides, if organized religion doesn’t like something, my first inclination is to like it more.",
+                          "fontFamily": "Inter",
+                          "fontSize": 15.2,
+                          "fontWeight": "400",
+                          "fill": "#0F1419",
+                          "lineHeight": 1.6,
+                          "textGrowth": "fixed-width",
+                          "width": 457.3
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mock-kiwistand-219-desktop-after-html-5",
+                          "name": "div",
+                          "layout": "none",
+                          "x": 20,
+                          "y": 166.4,
+                          "width": 474.9,
+                          "height": 476.7,
+                          "fill": "#00000014",
+                          "cornerRadius": 2,
+                          "stroke": "#0000001A",
+                          "strokeAlignment": "inner",
+                          "strokeWidth": 1,
+                          "clip": true,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "mock-kiwistand-219-desktop-after-html-4",
+                              "name": "Tweet image",
+                              "layout": "none",
+                              "x": 1,
+                              "y": 1,
+                              "width": 472.9,
+                              "height": 474.7,
+                              "fill": {
+                                "type": "image",
+                                "url": "assets/mockups/kiwistand-219-tweet.jpg",
+                                "mode": "cover"
+                              },
+                              "clip": true,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "mock-kiwistand-219-desktop-after-html-6",
+                          "x": 463.5,
+                          "y": 651.1,
+                          "content": "x.com",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "400",
+                          "fill": "#0F1419"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "mock-kiwistand-219-desktop-after-html-9",
+                  "x": 23,
+                  "y": 694.1,
+                  "content": "by",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "fill": "#828282",
+                  "lineHeight": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "mock-kiwistand-219-desktop-after-html-a",
+                  "x": 39,
+                  "y": 694.1,
+                  "content": "mishaderidder.eth",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "fill": "#000000",
+                  "lineHeight": 1.5
+                },
+                {
+                  "type": "frame",
+                  "id": "mock-kiwistand-219-desktop-after-html-c",
+                  "name": "span",
+                  "layout": "none",
+                  "x": 148.4,
+                  "y": 691.1,
+                  "width": 45.8,
+                  "height": 22,
+                  "fill": "#00000014",
+                  "cornerRadius": 11,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-desktop-after-html-b",
+                      "x": 6,
+                      "y": 6,
+                      "content": "1483 🥝",
+                      "fontFamily": "Inter",
+                      "fontSize": 9,
+                      "fontWeight": "600",
+                      "fill": "#000000",
+                      "lineHeight": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "mock-kiwistand-219-desktop-after-html-d",
+                  "x": 194.2,
+                  "y": 694.1,
+                  "content": "•",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "fill": "#828282",
+                  "lineHeight": 1.5,
+                  "textGrowth": "fixed-width",
+                  "width": 11.9
+                },
+                {
+                  "type": "text",
+                  "id": "mock-kiwistand-219-desktop-after-html-e",
+                  "x": 205,
+                  "y": 694.1,
+                  "content": "2d",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "fill": "#828282",
+                  "lineHeight": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "x": 1400,
+      "y": 39853
+    },
+    {
+      "type": "text",
+      "id": "mock-kiwistand-219-title-1",
+      "x": 0,
+      "y": 41053,
+      "content": "Mockup · kiwistand-219 · Mobile",
+      "fill": "#000000",
+      "fontSize": 48,
+      "fontWeight": "700",
+      "fontFamily": "Inter"
+    },
+    {
+      "type": "frame",
+      "id": "mock-kiwistand-219-mobile-before-html",
+      "name": "Mockup kiwistand-219 · Mobile · /before.html",
+      "layout": "none",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#F9F9F9",
+      "children": [
+        {
+          "type": "frame",
+          "id": "mock-kiwistand-219-mobile-before-html-h",
+          "name": "table",
+          "layout": "none",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 479.9,
+          "fill": "#F8F8F7",
+          "children": [
+            {
+              "type": "frame",
+              "id": "mock-kiwistand-219-mobile-before-html-8",
+              "name": "tweet-preview-container",
+              "layout": "none",
+              "x": 3,
+              "y": 3,
+              "width": 384,
+              "height": 426.9,
+              "clip": true,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mock-kiwistand-219-mobile-before-html-7",
+                  "name": "tweet-embed-container",
+                  "layout": "none",
+                  "x": 0,
+                  "y": 0,
+                  "width": 384,
+                  "height": 426.9,
+                  "fill": "#FFFFFF",
+                  "stroke": "#E6E6DF",
+                  "strokeAlignment": "inner",
+                  "strokeWidth": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 1,
+                    "left": 0
+                  },
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mock-kiwistand-219-mobile-before-html-1",
+                      "name": "div",
+                      "layout": "none",
+                      "x": 20,
+                      "y": 20,
+                      "width": 20,
+                      "height": 20,
+                      "cornerRadius": 10,
+                      "clip": true,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mock-kiwistand-219-mobile-before-html-0",
+                          "name": "@kennyschac",
+                          "layout": "none",
+                          "x": 0,
+                          "y": 0,
+                          "width": 20,
+                          "height": 20,
+                          "fill": {
+                            "type": "image",
+                            "url": "assets/mockups/kiwistand-219-avatar.jpg",
+                            "mode": "cover"
+                          },
+                          "clip": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-before-html-2",
+                      "x": 48,
+                      "y": 22,
+                      "content": "@kennyschac",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "fill": "#0F1419"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-before-html-3",
+                      "x": 20,
+                      "y": 58.2,
+                      "content": "Blah blah dogma. Art = art. Period. Humanity needs protection from humanity as much, if not more, than from machines. Besides, if organized religion doesn’t like something, my first inclination is to like it more.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15.2,
+                      "fontWeight": "400",
+                      "fill": "#0F1419",
+                      "lineHeight": 1.6,
+                      "textGrowth": "fixed-width",
+                      "width": 341.2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mock-kiwistand-219-mobile-before-html-5",
+                      "name": "div",
+                      "layout": "none",
+                      "x": 20,
+                      "y": 190.4,
+                      "width": 346,
+                      "height": 195.5,
+                      "fill": "#00000014",
+                      "cornerRadius": 2,
+                      "stroke": "#0000001A",
+                      "strokeAlignment": "inner",
+                      "strokeWidth": 1,
+                      "clip": true,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mock-kiwistand-219-mobile-before-html-4",
+                          "name": "Tweet image",
+                          "layout": "none",
+                          "x": 1,
+                          "y": 1,
+                          "width": 344,
+                          "height": 193.5,
+                          "fill": {
+                            "type": "image",
+                            "url": "assets/mockups/kiwistand-219-tweet.jpg",
+                            "mode": "cover"
+                          },
+                          "clip": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-before-html-6",
+                      "x": 334.7,
+                      "y": 393.9,
+                      "content": "x.com",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "400",
+                      "fill": "#0F1419"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mock-kiwistand-219-mobile-before-html-g",
+              "name": "story-link-container-wrapper",
+              "layout": "none",
+              "x": 23,
+              "y": 437.9,
+              "width": 344,
+              "height": 27,
+              "clip": true,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mock-kiwistand-219-mobile-before-html-f",
+                  "name": "story-subtitle",
+                  "layout": "none",
+                  "x": 0,
+                  "y": 5,
+                  "width": 330,
+                  "height": 22,
+                  "clip": true,
+                  "opacity": 0.9,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-before-html-9",
+                      "x": 0,
+                      "y": 4,
+                      "content": "by",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "fill": "#828282",
+                      "lineHeight": 1.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-before-html-a",
+                      "x": 16.7,
+                      "y": 4,
+                      "content": "mishaderidder.eth",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "fill": "#000000",
+                      "lineHeight": 1.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mock-kiwistand-219-mobile-before-html-c",
+                      "name": "span",
+                      "layout": "none",
+                      "x": 130.1,
+                      "y": 0,
+                      "width": 45.8,
+                      "height": 22,
+                      "fill": "#00000014",
+                      "cornerRadius": 11,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mock-kiwistand-219-mobile-before-html-b",
+                          "x": 6,
+                          "y": 6,
+                          "content": "1483 🥝",
+                          "fontFamily": "Inter",
+                          "fontSize": 9,
+                          "fontWeight": "600",
+                          "fill": "#000000",
+                          "lineHeight": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-before-html-d",
+                      "x": 179.8,
+                      "y": 4,
+                      "content": "•",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "fill": "#828282",
+                      "lineHeight": 1.5,
+                      "textGrowth": "fixed-width",
+                      "width": 11.9
+                    },
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-before-html-e",
+                      "x": 194.7,
+                      "y": 4,
+                      "content": "2d",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "fill": "#828282",
+                      "lineHeight": 1.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "x": 0,
+      "y": 41153
+    },
+    {
+      "type": "frame",
+      "id": "mock-kiwistand-219-mobile-after-html",
+      "name": "Mockup kiwistand-219 · Mobile · /after.html",
+      "layout": "none",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#F9F9F9",
+      "children": [
+        {
+          "type": "frame",
+          "id": "mock-kiwistand-219-mobile-after-html-h",
+          "name": "table",
+          "layout": "none",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 631.7,
+          "fill": "#F8F8F7",
+          "children": [
+            {
+              "type": "frame",
+              "id": "mock-kiwistand-219-mobile-after-html-8",
+              "name": "tweet-preview-container",
+              "layout": "none",
+              "x": 3,
+              "y": 3,
+              "width": 384,
+              "height": 578.7,
+              "clip": true,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mock-kiwistand-219-mobile-after-html-7",
+                  "name": "tweet-embed-container",
+                  "layout": "none",
+                  "x": 0,
+                  "y": 0,
+                  "width": 384,
+                  "height": 578.7,
+                  "fill": "#FFFFFF",
+                  "stroke": "#E6E6DF",
+                  "strokeAlignment": "inner",
+                  "strokeWidth": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 1,
+                    "left": 0
+                  },
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mock-kiwistand-219-mobile-after-html-1",
+                      "name": "div",
+                      "layout": "none",
+                      "x": 20,
+                      "y": 20,
+                      "width": 20,
+                      "height": 20,
+                      "cornerRadius": 10,
+                      "clip": true,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mock-kiwistand-219-mobile-after-html-0",
+                          "name": "@kennyschac",
+                          "layout": "none",
+                          "x": 0,
+                          "y": 0,
+                          "width": 20,
+                          "height": 20,
+                          "fill": {
+                            "type": "image",
+                            "url": "assets/mockups/kiwistand-219-avatar.jpg",
+                            "mode": "cover"
+                          },
+                          "clip": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-after-html-2",
+                      "x": 48,
+                      "y": 22,
+                      "content": "@kennyschac",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "fill": "#0F1419"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-after-html-3",
+                      "x": 20,
+                      "y": 58.2,
+                      "content": "Blah blah dogma. Art = art. Period. Humanity needs protection from humanity as much, if not more, than from machines. Besides, if organized religion doesn’t like something, my first inclination is to like it more.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15.2,
+                      "fontWeight": "400",
+                      "fill": "#0F1419",
+                      "lineHeight": 1.6,
+                      "textGrowth": "fixed-width",
+                      "width": 341.2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mock-kiwistand-219-mobile-after-html-5",
+                      "name": "div",
+                      "layout": "none",
+                      "x": 20,
+                      "y": 190.4,
+                      "width": 346,
+                      "height": 347.3,
+                      "fill": "#00000014",
+                      "cornerRadius": 2,
+                      "stroke": "#0000001A",
+                      "strokeAlignment": "inner",
+                      "strokeWidth": 1,
+                      "clip": true,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mock-kiwistand-219-mobile-after-html-4",
+                          "name": "Tweet image",
+                          "layout": "none",
+                          "x": 1,
+                          "y": 1,
+                          "width": 344,
+                          "height": 345.3,
+                          "fill": {
+                            "type": "image",
+                            "url": "assets/mockups/kiwistand-219-tweet.jpg",
+                            "mode": "cover"
+                          },
+                          "clip": true,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-after-html-6",
+                      "x": 334.7,
+                      "y": 545.7,
+                      "content": "x.com",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "400",
+                      "fill": "#0F1419"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mock-kiwistand-219-mobile-after-html-g",
+              "name": "story-link-container-wrapper",
+              "layout": "none",
+              "x": 23,
+              "y": 589.7,
+              "width": 344,
+              "height": 27,
+              "clip": true,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mock-kiwistand-219-mobile-after-html-f",
+                  "name": "story-subtitle",
+                  "layout": "none",
+                  "x": 0,
+                  "y": 5,
+                  "width": 330,
+                  "height": 22,
+                  "clip": true,
+                  "opacity": 0.9,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-after-html-9",
+                      "x": 0,
+                      "y": 4,
+                      "content": "by",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "fill": "#828282",
+                      "lineHeight": 1.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-after-html-a",
+                      "x": 16.7,
+                      "y": 4,
+                      "content": "mishaderidder.eth",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "fill": "#000000",
+                      "lineHeight": 1.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mock-kiwistand-219-mobile-after-html-c",
+                      "name": "span",
+                      "layout": "none",
+                      "x": 130.1,
+                      "y": 0,
+                      "width": 45.8,
+                      "height": 22,
+                      "fill": "#00000014",
+                      "cornerRadius": 11,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mock-kiwistand-219-mobile-after-html-b",
+                          "x": 6,
+                          "y": 6,
+                          "content": "1483 🥝",
+                          "fontFamily": "Inter",
+                          "fontSize": 9,
+                          "fontWeight": "600",
+                          "fill": "#000000",
+                          "lineHeight": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-after-html-d",
+                      "x": 179.8,
+                      "y": 4,
+                      "content": "•",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "fill": "#828282",
+                      "lineHeight": 1.5,
+                      "textGrowth": "fixed-width",
+                      "width": 11.9
+                    },
+                    {
+                      "type": "text",
+                      "id": "mock-kiwistand-219-mobile-after-html-e",
+                      "x": 194.7,
+                      "y": 4,
+                      "content": "2d",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "fill": "#828282",
+                      "lineHeight": 1.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "x": 470,
+      "y": 41153
     }
   ],
   "themes": {
