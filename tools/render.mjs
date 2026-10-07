@@ -14,10 +14,16 @@ const [input = "kiwi-news.pen", outDir = "out/preview", ...ids] = process.argv.s
 const file = path.resolve(input);
 fs.mkdirSync(outDir, { recursive: true });
 
-const icons = path.dirname(require.resolve("lucide-static/package.json"));
+// pen.dev's icon libraries, as SVG files from npm.
+const pkg = (name) => require.resolve.paths(name).map((dir) => path.join(dir, name)).find((dir) => fs.existsSync(dir));
+const iconDirs = {
+  lucide: path.join(pkg("lucide-static"), "icons"),
+  "Material Symbols Rounded": path.join(pkg("@material-symbols/svg-400"), "rounded"),
+  phosphor: path.join(pkg("@phosphor-icons/core"), "assets", "regular"),
+};
 const iconSVG = (library, name) => {
   try {
-    return fs.readFileSync(path.join(icons, "icons", `${name}.svg`), "utf-8");
+    return fs.readFileSync(path.join(iconDirs[library ?? "lucide"], `${name}.svg`), "utf-8");
   } catch {
     return null;
   }

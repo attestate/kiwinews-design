@@ -11,6 +11,8 @@
     "build:ios": "node tools/build-ios.mjs"
   },
   "devDependencies": {
+    "@material-symbols/svg-400": "^0.47.6",
+    "@phosphor-icons/core": "^2.1.1",
     "lucide-static": "^0.468.0",
     "playwright": "^1.56.1"
   }
