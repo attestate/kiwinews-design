@@ -21,9 +21,13 @@ const iconDirs = {
   "Material Symbols Rounded": path.join(pkg("@material-symbols/svg-400"), "rounded"),
   phosphor: path.join(pkg("@phosphor-icons/core"), "assets", "regular"),
 };
+// Phosphor names carry their weight as a suffix ("clock-bold", "house-fill"),
+// and each weight has its own folder.
+const phosphorWeight = (name) => name.match(/-(thin|light|bold|fill|duotone)$/)?.[1] ?? "regular";
 const iconSVG = (library, name) => {
   try {
-    return fs.readFileSync(path.join(iconDirs[library ?? "lucide"], `${name}.svg`), "utf-8");
+    const dir = library === "phosphor" ? path.join(iconDirs.phosphor, "..", phosphorWeight(name)) : iconDirs[library ?? "lucide"];
+    return fs.readFileSync(path.join(dir, `${name}.svg`), "utf-8");
   } catch {
     return null;
   }
