@@ -212,13 +212,18 @@ export function renderDocument(doc, { baseDir = ".", iconSVG = () => null, only 
   }
 
   const roots = doc.children.filter((node) => !only || only(node)).map(expand);
-  const width = Math.max(...roots.map((n) => (n.x ?? 0) + (typeof n.width === "number" ? n.width : 400))) + 40;
-  const height = Math.max(...roots.map((n) => (n.y ?? 0) + (typeof n.height === "number" ? n.height : 900))) + 40;
+  // Screens can sit left of or above the canvas origin; shift everything so
+  // the leftmost and topmost ones start at the page edge (a page can't scroll to
+  // negative coordinates, so they would screenshot as an empty grey box).
+  const minX = Math.min(0, ...roots.map((n) => n.x ?? 0));
+  const minY = Math.min(0, ...roots.map((n) => n.y ?? 0));
+  const width = Math.max(...roots.map((n) => (n.x ?? 0) + (typeof n.width === "number" ? n.width : 400))) - minX + 40;
+  const height = Math.max(...roots.map((n) => (n.y ?? 0) + (typeof n.height === "number" ? n.height : 900))) - minY + 40;
   const body = roots.map((node) => render(node, null, {})).join("\n");
   return `<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>html,body{margin:0;background:#E5E5E5}*{box-sizing:border-box}</style></head>
-<body><div style="position:relative;width:${width}px;height:${height}px">${body}</div></body></html>`;
+<body><div style="position:relative;width:${width}px;height:${height}px"><div style="position:absolute;left:${-minX}px;top:${-minY}px">${body}</div></div></body></html>`;
 }
 
 if (process.argv[1] && import.meta.url.endsWith(path.basename(process.argv[1]))) {
